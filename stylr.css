@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8d1d1ed;
+  min-width: 400px;
+}
+
+#input-el {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+#input-el:focus {
+  border-color: #8b5a2b; /* brown highlight */
+}
+
+#input-bn {
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #8b5a2b; /* brown */
+  color: #ffffff;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#input-bn:hover {
+  background-color: #704521;
+}
+
+#input-bn:active {
+  transform: scale(0.97);
+}
+
+
+
+#delete-bn{
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1f1d1a; /* black */
+  color: #ffffff;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#save-tb{
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #b8c5a296; /* brown */
+  color: #171616;
+  transition: background-color 0.3s, transform 0.2s;
+}
